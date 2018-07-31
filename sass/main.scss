@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'extend';
+
+
+.contenedor{
+	width: 80%;
+	margin:auto;
+	font-family: 'Pontano Sans', sans-serif;
+	color:#595959;
+}
+
+@import 'header';
+@import 'home';
+@import 'music';
+@import 'band';
+@import 'tour';
+@import 'contact';

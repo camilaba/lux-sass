@@ -1,0 +1,65 @@
+.discography {
+ 	
+ 	padding:100px 200px ;
+  	font-family: $fontA;
+	display:grid;
+	grid-template-columns: 300px 300px 400px;
+	grid-template-rows: 300px 300px;
+	grid-gap: 10px;
+	border: auto;
+	justify-items:center;
+	grid-template-areas: "BW SF Bo"
+					    				 "La We At"
+}					
+	article 
+		p{
+			font-weight: bold;
+			font-size: 1rem;
+			padding: 20px;
+
+	}  
+
+	article
+		img{
+			padding:10px;
+			transform: scale(1.1);
+	} 
+
+
+	.BW{
+		grid-area:BW;
+		padding: 20px;
+		place-self: center;
+}	
+
+	.SF{
+			grid-area: SF;
+			padding: 20px;
+			place-self: center;
+	}	
+
+	.Bo{
+			grid-area:Bo;
+			padding: 20px;
+			place-self: center;
+	}	
+
+	.La{
+			grid-area: La;
+			padding: 20px;
+			place-self: center;
+	}	
+
+	.We{
+			grid-area: We;
+			padding: 20px;
+			place-self: center;
+	}
+
+	.At{
+			grid-area: At;
+			padding: 20px;
+			place-self: center;
+	}	
+
+

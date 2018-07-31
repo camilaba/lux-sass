@@ -1,0 +1,42 @@
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/tour.scss */
+#tour {
+  padding: 50px;
+  flex-direction: row;
+  align-content: left;
+}
+
+/* line 7, /home/mila/Desktop/codhouse/lux/sass/tour.scss */
+.dates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  margin: 1em 0;
+  justify-content: space-between;
+}
+
+/* line 15, /home/mila/Desktop/codhouse/lux/sass/tour.scss */
+.dates ul {
+  width: 100%;
+}
+
+/* line 18, /home/mila/Desktop/codhouse/lux/sass/tour.scss */
+.dates ul li {
+  list-style: none;
+  width: 33%;
+  display: inline-block;
+  padding: 20px;
+}
+
+/* line 24, /home/mila/Desktop/codhouse/lux/sass/tour.scss */
+.dates ul li a {
+  display: inline-block;
+  background: grey;
+  padding: 5px 10px;
+  color: white;
+  font-size: 1.1rem;
+  border-color: white;
+  border: auto;
+}
+
+/*# sourceMappingURL=../css/tour.map */

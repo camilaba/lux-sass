@@ -1,0 +1,49 @@
+header {
+padding: 0px;
+background: $backHeader;
+position: fixed;
+top: 0;
+width:100%;
+
+
+	body{
+		img{
+			background-image: cover;
+		}
+
+	}
+
+
+	.contenedor{
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h1{
+			color:$tHeader;
+			font-family: $fontA;
+			font-size: 2rem;
+
+		}	
+		nav{
+			ul{
+				li{
+					display:inline-block;
+					margin:10px;	
+					font-family: $fontA;
+					font-size: 1.7rem;
+					color:$tHeader;
+					
+					a:hover{
+						
+						color: $tHeader;				
+						font-family: $fontA;
+						color: $tHeader;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,33 @@
+.home 
+	img{
+	margin: 0;
+}
+
+.icon-bar  {
+	
+	position:fixed;
+	display: inline-block;
+	right:40px;
+	bottom:160px;
+	
+	 
+	li{ 
+			list-style: none;
+			text-decoration:none;
+
+			a:hover{
+			 	color: orange;
+			 	font-size:5rem;
+			}
+				a {  
+				font-size:2rem;
+				color: #4f359b;
+			 	padding:10px;    
+			 	border: 20px;
+			 	margin:10px;
+			 
+				}
+		 
+	}		
+	
+}

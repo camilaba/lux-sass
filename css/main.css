@@ -1,0 +1,279 @@
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font: 'Pontano Sans', sans-serif;
+}
+
+/* line 7, /home/mila/Desktop/codhouse/lux/sass/main.scss */
+.contenedor {
+  width: 80%;
+  margin: auto;
+  font-family: 'Pontano Sans', sans-serif;
+  color: #595959;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header {
+  padding: 0px;
+  background: rgba(0, 0, 77, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* line 10, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header body img {
+  background-image: cover;
+}
+
+/* line 17, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 22, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header .contenedor h1 {
+  color: #ffffcc;
+  font-family: "Pontano Sans", sansserif;
+  font-size: 2rem;
+}
+
+/* line 30, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header .contenedor nav ul li {
+  display: inline-block;
+  margin: 10px;
+  font-family: "Pontano Sans", sansserif;
+  font-size: 1.7rem;
+  color: #ffffcc;
+}
+
+/* line 37, /home/mila/Desktop/codhouse/lux/sass/_header.scss */
+header .contenedor nav ul li a:hover {
+  color: #ffffcc;
+  font-family: "Pontano Sans", sansserif;
+  color: #ffffcc;
+  font-weight: bold;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_home.scss */
+.home
+img {
+  margin: 0;
+}
+
+/* line 6, /home/mila/Desktop/codhouse/lux/sass/_home.scss */
+.icon-bar {
+  position: fixed;
+  display: inline-block;
+  right: 40px;
+  bottom: 160px;
+}
+
+/* line 14, /home/mila/Desktop/codhouse/lux/sass/_home.scss */
+.icon-bar li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* line 18, /home/mila/Desktop/codhouse/lux/sass/_home.scss */
+.icon-bar li a:hover {
+  color: orange;
+  font-size: 5rem;
+}
+
+/* line 22, /home/mila/Desktop/codhouse/lux/sass/_home.scss */
+.icon-bar li a {
+  font-size: 2rem;
+  color: #4f359b;
+  padding: 10px;
+  border: 20px;
+  margin: 10px;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.discography {
+  padding: 100px 200px;
+  font-family: "Pontano Sans", sansserif;
+  display: grid;
+  grid-template-columns: 300px 300px 400px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 10px;
+  border: auto;
+  justify-items: center;
+  grid-template-areas: "BW SF Bo" "La We At";
+}
+
+/* line 14, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+article
+p {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+/* line 22, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+article
+img {
+  padding: 10px;
+  transform: scale(1.1);
+}
+
+/* line 29, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.BW {
+  grid-area: BW;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 35, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.SF {
+  grid-area: SF;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 41, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.Bo {
+  grid-area: Bo;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 47, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.La {
+  grid-area: La;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 53, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.We {
+  grid-area: We;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 59, /home/mila/Desktop/codhouse/lux/sass/_music.scss */
+.At {
+  grid-area: At;
+  padding: 20px;
+  place-self: center;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.about {
+  padding: 50px 50px 10px 50px;
+}
+
+/* line 4, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.them {
+  margin: auto;
+  padding-left: 150px;
+}
+
+/* line 9, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.members {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 19, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.C {
+  width: 32%;
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+/* line 24, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.L {
+  width: 32%;
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+/* line 30, /home/mila/Desktop/codhouse/lux/sass/_band.scss */
+.B {
+  width: 32%;
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_tour.scss */
+#tour {
+  padding: 100px;
+  flex-direction: row;
+  align-content: left;
+  color: #4d4d4d;
+}
+
+/* line 9, /home/mila/Desktop/codhouse/lux/sass/_tour.scss */
+.dates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid orange;
+  margin: 1em 0;
+  justify-content: center;
+}
+
+/* line 17, /home/mila/Desktop/codhouse/lux/sass/_tour.scss */
+.dates ul {
+  width: 100%;
+  border-bottom: 1px solid orange;
+  background-color: white;
+  justify-content: center;
+}
+
+/* line 23, /home/mila/Desktop/codhouse/lux/sass/_tour.scss */
+.dates ul li {
+  list-style: none;
+  width: 32%;
+  display: inline-block;
+  padding: 20px;
+}
+
+/* line 29, /home/mila/Desktop/codhouse/lux/sass/_tour.scss */
+.dates ul li a {
+  display: inline-block;
+  background: orange;
+  padding: 5px 20px;
+  color: white;
+  font-size: 1.1rem;
+  border-color: white;
+}
+
+/* line 1, /home/mila/Desktop/codhouse/lux/sass/_contact.scss */
+.contact {
+  margin: auto;
+  color: #4d4d4d;
+  padding: 150px;
+}
+
+/* line 7, /home/mila/Desktop/codhouse/lux/sass/_contact.scss */
+.contact img {
+  position: relative;
+  display: inline-block;
+  margin-left: 550px;
+  bottom: 250px;
+}
+
+/* line 14, /home/mila/Desktop/codhouse/lux/sass/_contact.scss */
+.contact ul {
+  padding: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* line 19, /home/mila/Desktop/codhouse/lux/sass/_contact.scss */
+.contact ul li {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=../css/main.map */

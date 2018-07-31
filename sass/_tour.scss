@@ -1,0 +1,40 @@
+#tour {
+	padding: 100px;
+	flex-direction: row;
+	align-content: left;
+	color: $tBody;
+
+}
+
+	.dates{
+		display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  border: 1px solid orange;
+	  margin: 1em 0;
+	  justify-content: center;
+
+	  ul{
+	  	width: 100%;
+	  	border-bottom: 1px solid orange;
+	  	background-color: white;
+	    justify-content: center;
+
+			li {
+		  	list-style: none;
+		  	width: 32%;
+	   		display: inline-block;
+	   		padding:20px;
+
+	   		a{
+	   			display: inline-block;
+					background: orange;
+					padding: 5px 20px;
+					color: white; 
+					font-size: 1.1rem;
+					border-color: white;
+				}
+			}
+  	}
+ 	} 	
+ 
