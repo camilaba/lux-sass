@@ -1,24 +1,32 @@
 .contact{
 	
 	margin:auto;
+	height: 100hw;
 	color:$tBody;
-	padding: 150px;
- 
-	img{
-		position:relative;
-		display: inline-block;
-		margin-left:550px;
-		bottom: 250px;
-		}
+	padding: 100px;
+	display: flex;
+	justify-content: space-evenly;
+
+
 
 	ul{
 		padding:20px;
 		display: inline-block;
-		padding: 10px;
+		padding: 10px 50px 10px 50px;
 
 		li{
 			padding:10px;
 		}
 
+		span{
+			color:$tBody;
+		}
+
+		.postcard{
+		position:relative;
+		display: inline-block;
+		transform​:​ rotate​ (45deg);
+		}
 	}
-}
+
+}			

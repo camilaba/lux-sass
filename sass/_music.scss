@@ -1,7 +1,17 @@
+.videos{
+	padding:100px;
+	
+	iframe{
+		padding: 50px;
+
+	}
+}
+
 .discography {
  	
- 	padding:100px 200px ;
+ 	padding:100px;
   	font-family: $fontA;
+  	color:$tBody;
 	display:grid;
 	grid-template-columns: 300px 300px 400px;
 	grid-template-rows: 300px 300px;
@@ -14,17 +24,19 @@
 	article 
 		p{
 			font-weight: bold;
-			font-size: 1rem;
+			font-size: 1.3rem;
+			
 			padding: 20px;
+		
+			
 
 	}  
 
 	article
 		img{
 			padding:10px;
-			transform: scale(1.1);
+			transform: scale(1.4);
 	} 
-
 
 	.BW{
 		grid-area:BW;

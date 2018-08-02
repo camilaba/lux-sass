@@ -1,9 +1,11 @@
 header {
 padding: 0px;
-background: $backHeader;
+background: #334553;
+opacity:0.9;
 position: fixed;
 top: 0;
 width:100%;
+z-index: 1;
 
 
 	body{
@@ -12,15 +14,13 @@ width:100%;
 		}
 
 	}
-
-
 	.contenedor{
 		display:flex;
 		justify-content: space-between;
 		align-items: center;
 
 		h1{
-			color:$tHeader;
+			color:#ffffcc;
 			font-family: $fontA;
 			font-size: 2rem;
 
@@ -32,13 +32,14 @@ width:100%;
 					margin:10px;	
 					font-family: $fontA;
 					font-size: 1.7rem;
-					color:$tHeader;
+
+					a{
+					color:#ffffcc;
+					}
 					
 					a:hover{
-						
-						color: $tHeader;				
+						color:rgb(44, 105, 186);
 						font-family: $fontA;
-						color: $tHeader;
 						font-weight: bold;
 					}
 				}
