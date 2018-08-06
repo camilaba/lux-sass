@@ -1,0 +1,22 @@
+
+.icon-bar  {
+	width: 90px;
+	position:fixed;
+	right:30px;
+	bottom:120px;
+}
+	
+	a.icon {  
+	display: block;
+  text-align: center;
+	transition: all 0.3s ease;		 
+	font-size:2rem;
+	color: $tDGrey;
+	padding:3px;   
+	}
+
+	a.icon:hover{
+	 	color:$tSapo;
+	 	font-size:2.2rem;
+	}
+

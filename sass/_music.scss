@@ -1,77 +1,120 @@
-.videos{
-	padding:100px;
-	
-	iframe{
-		padding: 50px;
-
-	}
+.music{
+	background:$backSGrey;
 }
 
-.discography {
+.videos{
+	padding-top: 80px;
+}
+
+ .live{
+ 	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+	iframe{
+	padding: 10px 30px;	
+	}	
+
+	.tunes{
+		padding-top: 50px;
+		display: flex;
+		justify-content: space-between;
+		}
+
+	iframe{
+		padding: 10px 30px;
+		}
+
+	.discography {
  	
- 	padding:100px;
-  	font-family: $fontA;
-  	color:$tBody;
-	display:grid;
-	grid-template-columns: 300px 300px 400px;
-	grid-template-rows: 300px 300px;
-	grid-gap: 10px;
-	border: auto;
-	justify-items:center;
-	grid-template-areas: "BW SF Bo"
-					    				 "La We At"
-}					
-	article 
-		p{
-			font-weight: bold;
-			font-size: 1.3rem;
-			
-			padding: 20px;
-		
-			
-
-	}  
-
-	article
-		img{
-			padding:10px;
-			transform: scale(1.4);
-	} 
-
-	.BW{
-		grid-area:BW;
-		padding: 20px;
-		place-self: center;
+ 	height: 100vh;
+ 	color:$tDGrey;
+	display:flex;
+	align-items: stretch;
+	justify-content: space-around;	
+	
 }	
 
-	.SF{
-			grid-area: SF;
-			padding: 20px;
-			place-self: center;
+.disc h2{
+	padding-top: 80px;
+}				
+	 
+	lh{
+			font-weight: bold;
+		}
+
+	article.disc{
+		color: $tSGrey;
+		
 	}	
 
-	.Bo{
-			grid-area:Bo;
-			padding: 20px;
-			place-self: center;
-	}	
+	article.disc:hover{
+		background:$backWhite;
+		color:$tGrey;
+		}
+	
+	ol{
+			font:$fontA;
+			float:left;
+			padding: 30px 2px 20px;
+			align-self: flex-start;
+		  list-style: unset;
+		}
 
-	.La{
-			grid-area: La;
-			padding: 20px;
-			place-self: center;
-	}	
-
-	.We{
-			grid-area: We;
-			padding: 20px;
-			place-self: center;
-	}
-
-	.At{
-			grid-area: At;
-			padding: 20px;
-			place-self: center;
-	}	
+		li{
+			align-items: center;
+			padding: 2px,
+		}
 
 
+   img.disc{
+   	padding-top: 30px;
+   	padding-bottom: 30px;
+   }
+
+   img.disc:hover{
+   	transform: scale(1.1);
+   }
+
+   lh{
+   	color:$tGold;
+   	font-weight: bold;
+   	background:$backSGrey;
+   	border: 1px solid $borderGold;
+   	padding: 5px 18px ;
+   	margin: auto;
+   }
+
+   lh:hover{
+   	background:$backGold;
+   	color: $backSGrey;
+     }
+		
+   .w{
+   	font-size: .76rem;
+   	padding:5px;
+   }	
+
+  p.rvw{
+  	display:inline-block;
+  	right:100px;
+  	padding: 5px 15px;
+  	color:$backDBlue;
+  	font-weight: bold;
+
+   	padding: 5px 15px;
+   	margin: auto;
+  }
+  p.rvw:hover{
+  	background:white;
+
+  }
+  .rvw a{
+  	color:$tDBlue;
+  	padding:5px;
+  }
+  .rvw a:hover{
+  	background: white;
+  	color: $tSapo;
+  }

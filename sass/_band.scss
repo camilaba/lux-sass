@@ -1,37 +1,46 @@
 .about{
-	padding: 50px 50px 10px 50px;
+	padding: 100px 50px 10px 50px;
+	color: $tDGrey;
 }
   .them{
   	margin:auto;
-    padding-left: 150px;
+    padding-left: 180px;
     }
 
 	.members{
 
 		display:flex;
-		align-items: center;
-		flex-direction: column; 
+		justify-content: space-around;
+		align-items: stretch; 
 	}	
 
-	h3{
 
-	}
-			.C{				
-		  	width: 32%;
+			article{				
+		  	width: 300px;
+		  	color: $tDGrey;
 	   		display: inline-block;
-	   		padding:10px 5px;
+	   		padding:25px 15px;
+	   		align-self:flex-start;
 			}
-			.L{				
-		  	width: 32%;
+
+			article:hover{
+				background:$backSGrey;
+			}
+
+
+			h3:hover{				
+				color:$tSapo;
+			}
+			
+			/*.L{				
 	   		display: inline-block;
 	   		padding:10px 5px;
 	   	}
 	   	
 	   	.B{
-		  	width: 32%;
 	   		display: inline-block;
 	   		padding:10px 5px;
-	   	}	
+	   	}	*/
 	
 
 

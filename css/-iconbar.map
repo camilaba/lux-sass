@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/-iconbar.css",
+	"sources": [
+		"../sass/-iconbar.scss"
+	],
+	"sourcesContent": [
+		"\n.icon-bar  {\n\t\n\tposition:fixed;\n\tdisplay: inline-block;\n\tright:40px;\n\tbottom:160px;\n\t\n\t \n\tli{ \n\t\t\tlist-style: none;\n\t\t\ttext-decoration:none;\n\n\t\t\ta:hover{\n\t\t\t \tcolor:rgb(255, 117, 26);\n\t\t\t \tfont-size:2.5rem;\n\t\t\t}\n\t\t\t\ta {  \n\t\t\t\tfont-size:2rem;\n\t\t\t\tcolor: rgb(44, 105, 186);\n\t\t\t \tpadding:10px;    \n\t\t\t \tborder: 20px;\n\t\t\t \tmargin:10px;\n\t\t\t \n\t\t\t\t}\n\t\t \n\t}\t\t\n\t\n}"
+	],
+	"mappings": ";AACA,AAAA,SAAS,CAAE;EAEV,QAAQ,EAAC,KAAM;EACf,OAAO,EAAE,YAAa;EACtB,KAAK,EAAC,IAAK;EACX,MAAM,EAAC,KAAM;CAsBb;;;AA3BD,AAQC,SARQ,CAQR,EAAE,CAAA;EACA,UAAU,EAAE,IAAK;EACjB,eAAe,EAAC,IAAK;CAetB;;;AAzBF,AAYI,SAZK,CAQR,EAAE,CAIA,CAAC,AAAA,MAAM,CAAA;EACL,KAAK,EAAC,OAAG;EACT,SAAS,EAAC,MAAO;CAClB;;;AAfJ,AAgBI,SAhBK,CAQR,EAAE,CAQC,CAAC,CAAC;EACF,SAAS,EAAC,IAAK;EACf,KAAK,EAAE,OAAG;EACT,OAAO,EAAC,IAAK;EACb,MAAM,EAAE,IAAK;EACb,MAAM,EAAC,IAAK;CAEZ",
+	"names": []
+}

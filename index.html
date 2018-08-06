@@ -14,9 +14,7 @@
 </head>	 
 
 <body>
-	<div class="contenedor"> 
-   <img src="imagenes/homepage.jpeg" class="home" alt="homepage">
-   </div> 
+	<div  class ="home">
 
 	<header>
 		<div class="contenedor">
@@ -27,181 +25,188 @@
           <li><a href="#">Home</a></li>
 	 	      <li><a href="#tour">Tour</a></li>
           <li><a href="secciones/band.html">Band</a></li>
-  	      <li><a href="secciones/music.html">Music</a></li>
+  	      <div class="submenu">
+ 						 	<li class="subb"><a href="secciones/music.html">Music</a>
+  							<div class="submenu-content">
+  								<a href="secciones/music.html#live" target="_blank">Live</a>
+   									<a href="secciones/music.html#tunes" target="_blank">Tunes</a>
+    								<a href="secciones/music.html#discography" target="_blank">Discography</a>
+    						</div>
+     					</li>	
+  						</div>
 		     	<li><a href="#contact">Contact</a></li>
 	  	  </ul>
 	 	  </nav>
 	  </div>	
   </header> 
 
-  <section id="tour">
-   	<div class="contenedor">
-     	<h2>Tour Dates</h2>
-
-		<fieldset>
-
-		  <p>Track Son Lux and never miss them live.
-			 Includes news and updates from the artist direct to your inbox.</p>
-
-			<form class="subs-msg" method="post" action="#">
-		  <input type="text" name="EMAIL" class="email form-control" placeholder="Your Email...">
-		  <button type="submit"><span>Subscribe</span></button>
-			  	 
-			</form>	
-		</fieldset>	
-
-    
-    <article class="dates">
-		  <ul>
-		    <li>SUN 15 JULY</li>
-	      <li>Sexto Unplugged Festival 2018 Sesto al Reghena, Italy</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>FRI 20 JULY</li>
-	      <li>Electric Castle Festival 2018 Cluj-Napoca, Romania</li>
-       <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>FRI 21 SEPTEMBER</li>
-	      <li>Six D.O.G.S.Athens, Greece</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-		      
-	    <ul>
-	      <li>MON 24 SEPTEMBER</li>
-	      <li>SalzhausWinterthur, Switzerland</li>
-	      <li><a href="#">Tickets</a></li>  
-	    </ul>
-
-	    <ul>
-	      <li>TUE 25 SEPTEMBER</li>
-	      <li>RockhalEsch Sur Alzette, Luxembourg</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>WED 26 SEPTEMBER</li>
-	      <li>TRIX Centrum voor MuziekBorgerhout, Belgium</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>THU 27 SEPTEMBER</li>
-	      <li>A2 - Centrum KoncertoweWrocław, Poland</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>FRI 28 SEPTEMBER</li>
-	      <li>Klub B90Gdansk, Poland</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>SAT 29 SEPTEMBER</li>
-	      <li>Theatre House 'juras Varti'Ventspils, Latvia</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>SUN 30 SEPTEMBER</li>
-	      <li>Menu fabrikas LOFTASVilnius, Lithuania</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>WED 3 OCTOBER</li>
-	      <li>Bel etageKyiv (Kiev), Ukraine</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>FRI 5 OCTOBER</li>
-	      <li>Control Club Bucharest, Romania</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>SAT 6 OCTOBER</li>
-	      <li>FORM SPACECluj-Napoca, Romania</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>SUN 7 OCTOBER</li>
-	      <li>Tvornica Kulture Zagreb, Croatia</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>MON 8 OCTOBER</li>
-	      <li>Akvárium Klub Budapest, Hungary</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>TUE 9 OCTOBER</li>
-	      <li>Kino Šiška (Centre for Urban Culture)Ljubljana, Slovenia</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>WED 10 OCTOBER</li>
-	      <li>Tabačka Kultur Fabrik Kosice, Slovakia</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-
-	    <ul>
-	      <li>THU 11 OCTOBER</li>
-	      <li>Majestic Music Clu Bratislava, Slovakia</li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-	    <ul>
-	      <li>SAT 13 OCTOBER</li>
-	      <li>Funkhaus Berlin Berlin, Germany </li>
-	      <li><a href="#">Tickets</a></li>
-	    </ul>
-		             
-	    </article>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="contenedor">
-      <article class="contact">
-        <h2>Contact</h2>
-
-        <ul>
-          <li>MANAGEMENT •<span>info@thisismeru.com</span></li>
-          <li>US PRESS • <span>hector@chromaticpr.com and ap@chromaticpr.com</span></li>
-          <li>UK PRESS •<span>kate@stereosanctity.co.uk</span></li>
-          <li>EU PRESS •<span>info@thisismeru.com</span></li>
-          <li>US BOOKING •<span>omallon@paradigmagency.com</span> </li>
-          <li>EU BOOKING •<span>eleanor@pitchandsmith.com</span></li>
-        </ul>
-        <img  class="postcard" src="imagenes/sonluxbackground.jpg" alt="instagram image">
-
-      </article>
-    </div>
-  </section>
   
   <aside>    
 		  <section class="icon-bar">
 		   	<div class="contenedor">	
-		     	<ul>	
-		       	<li><a href="https://twitter.com/sonlux?lang=es"><i class="fab fa-twitter-square icono"></i></a></li>
-		     		<li><a href="https://es-la.facebook.com/sonlux/"><i class="fab fa-facebook-square icono"></i></a></li>
-		   	   	<li><a href="https://www.instagram.com/son_lux/?hl=es-la"><i class="fab fa-instagram icono"></i></a></li>
-		     		<li><a href="https://www.youtube.com/channel/UCvaVEjRMc91tuAxO3b3JuQw"><i class="fab fa-youtube icono"></i></a></li>
-		     		<li><a href="https://itunes.apple.com/us/artist/son-lux/272690127"><i class="fab fa-itunes-note icono"></i></a></li>
-		     		<li><a href="https://open.spotify.com/artist/3kZdsaTYgaaolNxpnJ4iDe"><i class="fab fa-spotify icono"></i></a></li>
-		     		<li><a href="https://www.amazon.com/default/e/B001LH44S0?redirectedFromKindleDbs=true"><i class="fab fa-amazon icono"></i></a></li>
-		     		<li><a href="https://soundcloud.com/son-lux"><i class="fab fa-soundcloud icono"></i></a></li>
-		 	   	</ul> 
+		     	<a class="icon" href="https://twitter.com/sonlux?lang=es"><i class="fab fa-twitter-square icono"></i></a>
+		     	<a class="icon"  href="https://es-la.facebook.com/sonlux/"><i class="fab fa-facebook-square icono"></i></a>
+		   	  <a class="icon" href="https://www.instagram.com/son_lux/?hl=es-la"><i class="fab fa-instagram icono"></i></a>
+		     	<a class="icon" href="https://www.youtube.com/channel/UCvaVEjRMc91tuAxO3b3JuQw"><i class="fab fa-youtube icono"></i></a>
+		     	<a class="icon" href="https://itunes.apple.com/us/artist/son-lux/272690127"><i class="fab fa-itunes-note icono"></i></a>
+		     	<a class="icon"  class="icon" href="https://open.spotify.com/artist/3kZdsaTYgaaolNxpnJ4iDe"><i class="fab fa-spotify icono"></i></a>
+		     	<a class="icon"  href="https://www.amazon.com/default/e/B001LH44S0?redirectedFromKindleDbs=true"><i class="fab fa-amazon icono"></i></a>
+		     	<a  class="icon" href="https://soundcloud.com/son-lux"><i class="fab fa-soundcloud icono"></i></a>
+		 	  
 		 	  </div>
 		  </section>
-  </aside>	
+  </aside>
+
+
+	</div>
+
+
+  <section id="tour">
+   		<div class="contenedor">
+     	<h2>Tour Dates</h2>
+
+    
+    <article class="concerts">
+		  <ul class="dates">
+		    <li class="date">SUN 15 JULY</li>
+	      <li>Sexto Unplugged Festival 2018 Sesto al Reghena, Italy</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+
+	    <ul class="dates">
+	      <li class="date">FRI 20 JULY</li>
+	      <li>Electric Castle Festival 2018 Cluj-Napoca, Romania</li>
+       <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+
+	    <ul class="dates"> 
+	      <li class="date">FRI 21 SEPTEMBER</li>
+	      <li>Six D.O.G.S.Athens, Greece</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+		      
+	    <ul class="dates">
+	      <li class="date">MON 24 SEPTEMBER</li>
+	      <li>SalzhausWinterthur, Switzerland</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>  
+	    </ul>
+
+	    <ul class="dates">
+	      <li class="date">TUE 25 SEPTEMBER</li>
+	      <li>RockhalEsch Sur Alzette, Luxembourg</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+
+	    <ul class="dates">
+	      <li class="date">WED 26 SEPTEMBER</li>
+	      <li>TRIX Centrum voor MuziekBorgerhout, Belgium</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+
+	    <ul class="dates">
+	      <li class="date">THU 27 SEPTEMBER</li>
+	      <li>A2 - Centrum KoncertoweWrocław, Poland</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">FRI 28 SEPTEMBER</li>
+	      <li>Klub B90Gdansk, Poland</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">SAT 29 SEPTEMBER</li>
+	      <li>Theatre House 'juras Varti'Ventspils, Latvia</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">SUN 30 SEPTEMBER</li>
+	      <li>Menu fabrikas LOFTASVilnius, Lithuania</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">WED 3 OCTOBER</li>
+	      <li>Bel etageKyiv (Kiev), Ukraine</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">FRI 5 OCTOBER</li>
+	      <li>Control Club Bucharest, Romania</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+
+	    <ul class="dates">
+	      <li class="date">SAT 6 OCTOBER</li>
+	      <li>FORM SPACECluj-Napoca, Romania</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>
+	    
+	    <ul class="dates">
+	      <li class="date">SUN 7 OCTOBER</li>
+	      <li>Tvornica Kulture Zagreb, Croatia</li>
+	      <li><a class="tickets" href="#">Tickets</a></li>
+	    </ul>		             
+	   </article>
+	  </div> 
+    
+  </section>
+
+
+
+  <section id="contact">
+    <div class="contenedor">
+      <article class="contact">
+
+        <h2>Contact</h2>
+
+        <ul class="contactp">
+          <li>MANAGEMENT•</li>
+          <li>info@thisismeru.com</li>
+        </ul>
+       	<ul class="contactp">  
+          <li>US PRESS•</li>
+          <li>hector@chromaticpr.com and ap@chromaticpr.com</li>
+        </ul> 
+        <ul class="contactp">
+          <li>UK PRESS•</li>
+          <li>kate@stereosanctity.co.uk</li>
+        </ul>
+        <ul class="contactp">
+          <li>EU PRESS•</li>
+          <li>info@thisismeru.com</li>
+        </ul>
+        <ul class="contactp">
+          <li>US BOOKING•</li>
+          <li>omallon@paradigmagency.com</li>
+        </ul>
+        <ul class="contactp">
+          <li>EU BOOKING •</li>
+          <li>eleanor@pitchandsmith.com</li>
+        </ul>
+
+      </article>
+</div>    
+  </section>
+	
 
   <footer>
-		<div class="contenedor">
-		</div>
+  
+		<fieldset>
+
+		  <p>Track Son Lux and never miss them live.</p>
+
+			<form class="widget-email-submit" action="" method="post">  
+        <div>
+       	 <input class="email-field" name="signup_email" placeholder="Your email address" title="Your email address" value="" type="email">
+      	 <button class="signup-button" type="submit">Follow</button>
+    		</div>
+   		</form>	
+ 
+		</fieldset>
 
 	</footer>
 

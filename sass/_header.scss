@@ -1,6 +1,6 @@
 header {
 padding: 0px;
-background: #334553;
+background: $backDGrey;
 opacity:0.9;
 position: fixed;
 top: 0;
@@ -20,31 +20,82 @@ z-index: 1;
 		align-items: center;
 
 		h1{
-			color:#ffffcc;
+			color:$tCream;
+			font-weight: bold;
 			font-family: $fontA;
 			font-size: 2rem;
 
 		}	
-		nav{
-			ul{
+		nav
 				li{
 					display:inline-block;
 					margin:10px;	
 					font-family: $fontA;
 					font-size: 1.7rem;
-
+					}	
 					a{
 					color:#ffffcc;
 					}
 					
 					a:hover{
-						color:rgb(44, 105, 186);
+						color:$tBlue;
 						font-family: $fontA;
 						font-weight: bold;
 					}
+
+					a .subb:hover{
+						color: $tCream;
+
+					}
+
+
+					.subb {
+			    background-color: $backDGrey;
+			    margin:10px;
+			    color: white;
+				  }
+					
+					.subb:hover{
+						color: $tCream;
+						}
+
+					
+
+
+				.submenu {
+				    position: relative;
+				    display: inline-block;
 				}
-			}
+
+				.submenu-content {
+				    display: none;
+				    position: absolute;
+				    background-color: #f1f1f1;
+				    min-width: 160px;
+				    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				    z-index: 1;
+				}
+
+				.submenu-content a {
+				    color: $tDGrey;
+				    padding: 12px 16px;
+				    text-decoration: none;
+				    display: block;
+				    font-size: 1rem;
+				}
+
+				.submenu-content a:hover {background-color: #ddd;}
+
+				.submenu:hover .submenu-content {display: block;}
+
+				.submenu:hover .subb {background-color: #3e8e41;}
+
+
+
 		}
-	}
+
+
+
+
 }
 

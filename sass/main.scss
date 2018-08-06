@@ -8,16 +8,19 @@
 	width: 80%;
 	margin:auto;
 	font-family: 'Pontano Sans', sans-serif;
-	color:#595959;
-}
+	
+}	
 
 h2{
-	color:#4d4d4d;
+	color:$tDGrey;
 	font-family: 'Pontano Sans', sans-serif;
 	}
 	h2:hover{
-	color:rgb(44, 105, 186);
+	color:$tSapo;
 	}
+body{
+	background-color:BackSGrey; 
+}	
 
 
 @import 'header';
@@ -26,3 +29,4 @@ h2{
 @import 'band';
 @import 'tour';
 @import 'contact';
+@import 'iconbar';
